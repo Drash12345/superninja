@@ -1,0 +1,1363 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.firstheader {
+  width: 100%;
+  background-color: #27355a;
+  display: inline-block;
+}
+
+.freeconsul {
+  background-color: #93cb3f;
+  font-size: 13px;
+  font-weight: 800;
+  float: left;
+  padding: 13px 10px;
+}
+
+.allsocialdiv {
+  float: left;
+  margin: 10px auto;
+}
+
+.allsocialimage {
+  width: 23px;
+  float: left;
+  margin: 0 10px;
+}
+
+
+.freecon {
+  background-color: #93cb3f;
+  font-size: 13px;
+  font-weight: 800;
+  float: left;
+  padding: 13px 10px;
+  text-align: center;
+}
+
+.hedercontetwo {
+  float: right;
+  margin: 10px auto;
+}
+
+.mailic {
+  margin-left: 10px;
+  width: 23px;
+  float: left;
+}
+
+.mailtext {
+  float: left;
+  color: white;
+  margin-left: 15px;
+}
+
+.secheader {
+  margin-top: -8px;
+  background-color: white;
+}
+
+.logo {
+  float: left;
+  margin: 12px auto;
+}
+
+.headetsec {
+  float: right;
+}
+
+.navmenu {
+  display: none;
+}
+
+.mail {
+  float: left;
+  margin: 20px 0;
+}
+
+.listtext {
+  font-size: 13px;
+  padding: 15px 20px;
+  font-weight: 800;
+  float: left;
+}
+
+.search {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #93cb3f;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.backbgop {
+  background: linear-gradient(#0d1823ec, #0d1823ec), url(../img/slid.jpg);
+  background-position: top;
+  padding: 400px;
+  margin-top: -8px;
+  position: relative;
+}
+
+.backone {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  height: 50px;
+}
+
+.nextone {
+  height: 50px;
+  float: right;
+  position: absolute;
+  top: 40%;
+  right: 3%;
+}
+
+.dots {
+  margin: auto;
+  width: 5px;
+}
+
+.dotone {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border: solid 2px white;
+  border-radius: 30px;
+  bottom: 15px;
+}
+
+.dottwo {
+  background-color: white;
+  margin-left: 30px;
+}
+
+.sectwoparet {
+  padding-top: 50px;
+}
+
+.headtext {
+  width: 45%;
+  text-align: center;
+  color: #27355a;
+  font-weight: 800;
+  margin: 30px auto;
+}
+
+.view {
+  margin: 15px auto;
+  width: 40px;
+  height: 3px;
+  background-color: #93cb3f;
+}
+
+.strategyone {
+  overflow: hidden;
+  position: relative;
+}
+
+.strategyhelo {
+  float: left;
+  width: 100%;
+}
+
+.anim {
+  position: absolute;
+  bottom: 100%;
+  background-color: #163f68cc;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.animone {
+  background-color: rgb(24, 39, 62);
+}
+
+.preicon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  border-radius: 50px;
+  padding: 8px;
+  margin: 10px 10px;
+}
+
+.preiconone {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  border-radius: 50px;
+  padding: 8px;
+  margin: 10px 10px;
+}
+
+.strategyleft {
+  float: left;
+}
+
+.greennext {
+  margin: 8px 0 0 0;
+  width: 50px;
+  height: 30px;
+  background-color: #93cb3f;
+  border-radius: 5px;
+  padding: 3px 13px;
+  visibility: hidden;
+}
+
+.card:hover .greennext {
+  visibility: visible;
+  animation: mymove 1s forwards;
+}
+
+@keyframes mymove {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(90px);
+  }
+}
+
+.gallery {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carddetailsone {
+  float: left;
+  text-align: left;
+}
+
+.card:hover .anim {
+  bottom: 0;
+  height: 100%;
+}
+
+.card:hover .strategy {
+  transform: scale(1.5);
+}
+
+.card {
+  width: 30%;
+  display: inline-block;
+  margin: 8px;
+  position: relative;
+}
+
+.secmaindiv {
+  position: relative;
+  overflow: hidden;
+}
+
+.animtext {
+  text-align: left;
+  color: white;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.animimg {
+  height: 18px;
+  float: left;
+  clear: both;
+  margin: 11px 15px 0 10px;
+}
+
+
+.otherimage {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #93cb3f;
+  border-radius: 5px 5px 0 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+}
+
+.cardimg {
+  overflow: hidden;
+}
+
+.strategy {
+  float: left;
+  width: 100%;
+  transition: transform .5s;
+}
+
+.strategy:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carddetails {
+  text-align: left;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.one {
+  margin: 10px 10px;
+  color: #27355a;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.two {
+  margin: 5px 10px;
+  color: gray;
+  font-size: 14px;
+}
+
+.three {
+  margin: 10px 10px;
+  margin-left: 10px;
+  color: #27355a;
+  font-size: 15px;
+}
+
+.sevenmain {
+  float: none;
+}
+
+.sevenmaintwo {
+  margin: 35px;
+  float: left;
+  width: 48%;
+  overflow: hidden;
+  text-align: left;
+}
+
+.thirdmainpart {
+  display: inline-block;
+}
+
+.thirimgonediv {
+  margin: 35px;
+  position: relative;
+  float: left;
+  width: 48%;
+  overflow: hidden;
+}
+
+.thirimgone {
+  display: block;
+  width: 100%;
+}
+
+.circle::before {
+  background: url('../img/play.png') no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  border-radius: 100px;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  content: '';
+  transform: translate(-50%, -50%);
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  border-bottom: 300px solid transparent;
+  border-right: 290px solid #0c426ee6;
+  border-top: 300px solid transparent;
+  transform: translate(-50%, -50%);
+}
+
+.chatimaheone {
+  float: left;
+  width: 45%;
+  padding-top: 35px;
+  text-align: left;
+}
+
+.thirtextonediv {
+  float: left;
+  width: 45%;
+  padding-top: 35px;
+  text-align: left;
+}
+
+.headtexttwo {
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.cerone {
+  float: left;
+  margin-top: 30px;
+}
+
+.Certifiedim {
+  height: 80px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #93cb3f;
+  padding: 15px;
+  float: left;
+}
+
+.four {
+  margin-top: 15px;
+  color: gray;
+  font-size: 15px;
+}
+
+.five {
+  margin: 0 10px;
+  float: left;
+  font-size: 18px;
+}
+
+.six {
+  width: 80%;
+  float: left;
+  font-size: 15px;
+}
+
+.services {
+  font-weight: 800;
+  margin: 20px auto;
+  color: #052b51;
+  font-size: 20px;
+}
+
+.services span {
+  color: #93cb3f;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.seven {
+  width: 50%;
+  margin: 0 40px;
+  text-align: center;
+  margin: auto;
+  color: gray;
+}
+
+.fourdivone {
+  width: 30%;
+  height: 150px;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.eight {
+  text-align: left;
+  padding: 0 0 0 15px;
+  font-weight: 800;
+  color: #777777;
+}
+
+.nine {
+  text-align: left;
+  padding: 10px 0 0 15px;
+  color: gray;
+  font-size: 13px;
+}
+
+.fourgreenimg {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background-color: #93cb3f;
+  padding: 15px;
+  z-index: 3;
+  bottom: 15%;
+  left: 5%;
+}
+
+.moreser {
+  margin: 20px auto;
+  width: 10%;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  float: none;
+}
+
+.shapepart {
+  padding-top: 50px;
+  background-color: white;
+  height: 400px;
+  overflow: hidden;
+}
+
+.shapeblue {
+  position: relative;
+  float: left;
+  width: 60%;
+  background-color: #0a1828;
+}
+
+.textshhape {
+  height: 300px;
+  z-index: 2;
+  position: relative;
+  font-size: 24px;
+  color: white;
+  padding: 95px;
+}
+
+.textshhape::after {
+  height: 200px;
+  transform: rotate(50deg);
+  margin: -83px;
+  z-index: 1;
+  width: 300px;
+  background-color: #0a1828;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: '';
+}
+
+.shapetwopart {
+  width: 40%;
+  float: right;
+}
+
+.imojione {
+  padding: 60px 0;
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.imojionet {
+  padding: 60px 0;
+  width: 25%;
+  float: right;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.fiveparet {
+  padding-top: 50px;
+  background-color: white;
+}
+
+.imogi {
+  border: 1px solid #93cb3f;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.imogitxt {
+  font-weight: 800;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.happycu {
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+
+.secbg {
+  background: linear-gradient(#0a1828ec, #0a1828ec), url(../img/slid2.jpg);
+  background-position: center;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: -15px;
+}
+
+.twl {
+  padding: 60px 0 20px 20px;
+  color: white;
+  font-weight: 800;
+  font-size: 23px;
+}
+
+.sixdivimg {
+  display: inline-block;
+  width: 18%;
+  background-color: #212d3c;
+  border: 1px solid #55585b;
+  margin: 5px 5px;
+}
+
+.alllogodiv {
+  width: 100%;
+}
+
+
+.strongnu {
+  font-size: 13px;
+  color: #93cb3f;
+  font-weight: 800;
+}
+
+.headtexttwo span {
+  color: #93cb3f;
+}
+
+.forms {
+  display: inline-block;
+}
+
+.eightpartone {
+  margin: 35px;
+  float: left;
+  width: 45%;
+}
+
+.eightparttwo {
+  float: left;
+  width: 48%;
+  padding-top: 35px;
+  text-align: left;
+}
+
+.formone {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+
+.imporfq {
+  padding: 10px 25px;
+  font-size: 23px;
+  color: #777777;
+  font-weight: 800;
+  text-align: left;
+}
+
+.faqone {
+  width: 90%;
+  border: solid 1px #dddddd;
+  text-align: left;
+  margin: 15px 15px 15px 33px;
+}
+
+.faqqimg {
+  margin: 15px;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+.faqtext {
+  margin: 10px;
+}
+
+.faqgrey {
+  color: #777777;
+  padding: 0 35px;
+}
+
+.formtwo {
+  border: solid 1px #dddddd;
+  border-radius: 10px;
+  float: left;
+}
+
+.ques {
+  color: black;
+}
+
+input[type="text"] {
+  margin: 10px 25px;
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+textarea {
+  margin: 10px 25px;
+  width: 90%;
+  height: 100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.submit {
+  width: 25%;
+  background-color: #93cb3f;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 0 25px 15px;
+  text-align: center;
+}
+
+.mentossince {
+  float: left;
+  position: absolute;
+  width: 35%;
+  color: #777777;
+  font-size: 30px;
+  text-align: left;
+  margin: 100px;
+}
+
+.nineconte {
+  margin: 100px 50px;
+  float: right;
+}
+
+.mailicico {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #93cb3f;
+  padding: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+.call {
+  text-align: left;
+  float: none;
+  clear: both;
+  display: inline-block;
+}
+
+.callone {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.phoneone {
+  float: left;
+  color: white;
+  padding: 5px;
+}
+
+.datmes {
+  width: 100%;
+}
+
+.date {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+
+.mess {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+
+.calan {
+  width: 15px;
+  float: left;
+  margin-right: 10px;
+}
+
+.dateone {
+  font-size: 13px;
+}
+
+.eleonemain {
+  width: 25%;
+  float: left;
+  padding: 150px 0;
+}
+
+.logoone {
+  float: left;
+}
+
+.forteen {
+  text-align: left;
+  display: inline-block;
+  color: white;
+}
+
+.servicelink {
+  padding: 150px 50px;
+  width: 25%;
+  float: left;
+}
+
+.servicetext {
+  color: white;
+  float: left;
+  font-size: 18px;
+}
+
+.container ul {
+  margin: 40px 15px;
+  text-align: left;
+  color: white;
+}
+
+.taglist {
+  padding: 150px 0;
+  width: 25%;
+  float: left;
+  display: inline;
+}
+
+.subscribe {
+  padding: 150px 0;
+  width: 25%;
+  float: left;
+}
+
+.subscribeone {
+  margin-top: 20px;
+}
+
+input[type="textone"] {
+  margin: 10px 0;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  outline: none;
+  background-color: #0000;
+}
+
+.tegone {
+  margin-top: 40px;
+}
+
+.tag {
+  margin-left: 30px;
+}
+
+.taglistone {
+  background-color: #27355a;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  font-size: 13px;
+  display: inline-block;
+  color: white;
+}
+
+.subscribebtn {
+  margin: 0px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #0c1929;
+  padding: 18px 0;
+  font-size: 15px;
+}
+
+.mento {
+  color: #93cb3f;
+}
+
+.footonne {
+  width: 100%;
+  text-align: left;
+  color: white;
+  display: inline-block;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .freeconsul {
+    margin: 0 10px;
+  }
+
+  .allsocialdiv {
+    margin: 12px auto;
+  }
+
+  .mailtext {
+    margin: 0 10px;
+  }
+
+  .logo {
+    margin: 15px 15px;
+  }
+
+  .search {
+    margin: 20px 10px;
+  }
+
+  .moreser {
+    width: 20%;
+  }
+
+  .eightpartone {
+    width: 50%;
+  }
+
+  .eightparttwo {
+    width: 40%;
+  }
+
+  .elemaipa {
+    margin: 0 15px;
+  }
+
+  .footonne {
+    padding: 10px 10px;
+  }
+
+  .six {
+    width: 70%;
+  }
+
+  .nine {
+    font-size: 11px;
+  }
+
+  .cerone {
+    margin-top: 10px;
+  }
+
+  .six {
+    font-size: 13px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .card {
+    width: 40%;
+  }
+
+  .one {
+    margin: 10px 10px;
+  }
+
+  .two {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+
+  .freeconsul {
+    margin: 0 10px;
+  }
+
+  .allsocialdiv {
+    margin: 12px auto;
+  }
+
+  .allsocialimage {
+    width: 18px;
+    margin: 0 8px;
+  }
+
+  .mailtext {
+    margin: 0 10px;
+  }
+
+  .logo {
+    margin: 0 10px;
+  }
+
+  .navmenu {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #93cb3f;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 10px;
+    display: inline;
+  }
+
+  .mail {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20%;
+    z-index: 1;
+    left: 0;
+    float: none;
+    margin: 60px 0;
+    height: 300px;
+  }
+
+  .navmenu:hover+.mail {
+    display: block;
+  }
+
+  .search {
+    margin: 10px 10px;
+  }
+
+  .backbgop {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 0;
+  }
+
+  .datmes {
+    width: 100%;
+  }
+
+  .date {
+    width: 50%;
+  }
+
+  .mess {
+    width: 50%;
+  }
+
+  .headtext {
+    width: 80%;
+  }
+
+  .circle {
+    top: 30%;
+    left: 31%;
+  }
+
+  .thirimgonediv {
+    margin: 0 20px;
+    width: 50%;
+  }
+
+  .thirtextonediv {
+    padding-top: 0;
+    width: 40%;
+  }
+
+  .headtexttwo {
+    font-size: 15px;
+  }
+
+  .four {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .cerone {
+    margin-top: 0;
+  }
+
+  .Certifiedim {
+    height: 50px;
+    padding: 10px;
+  }
+
+  .six {
+    width: 70%;
+    float: left;
+    font-size: 11px;
+  }
+
+  .seven {
+    text-align: center;
+    margin: auto;
+  }
+
+  .fourdivone {
+    width: 30%;
+    height: 150px;
+  }
+
+  .nine {
+    padding: 0 0 0 15px;
+  }
+
+  .moreser {
+    width: 25%;
+  }
+
+  .shapeblue {
+    width: 55%;
+  }
+
+  .textshhape {
+    padding: 55px;
+    height: 300px;
+    font-size: 20px;
+  }
+
+  .shapetwopart {
+    width: 45%;
+    float: right;
+  }
+
+  .imojione {
+    width: auto;
+  }
+
+  .imojionet {
+    width: auto;
+    margin: 0 10px;
+    float: none;
+  }
+
+  .sevenmaintwo {
+    width: 40%;
+  }
+
+  .chatimaheone {
+    width: 50%;
+  }
+
+  .eightpartone {
+    margin: 35px;
+    width: 45%;
+  }
+
+  .faqone {
+    margin: 10px 20px;
+  }
+
+  .faqtext {
+    margin: 0;
+  }
+
+  .formone {
+    width: 100%;
+  }
+
+  .imporfq {
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+
+  .eightparttwo {
+    width: 45%;
+  }
+
+  input[type="text"] {
+    margin: 5px 15px;
+    width: 91%;
+  }
+
+  textarea {
+    margin: 5px 15px;
+    width: 91%;
+  }
+
+  .eleonemain {
+    padding: 120px 0;
+  }
+
+  .mentossince {
+    width: 30%;
+    font-size: 20px;
+    margin: 100px;
+  }
+
+  .elemaipa {
+    margin: 0 15px;
+  }
+
+  .tegone {
+    margin-top: 20px;
+  }
+
+  .servicelink {
+    padding: 125px 50px;
+  }
+
+  .servicetext {
+    font-size: 12px;
+  }
+
+  .taglist {
+    padding: 125px 0 0 0;
+  }
+
+  .subscribe {
+    padding: 125px 0 0 0;
+  }
+
+
+  .taglistone {
+    padding: 0 10px;
+  }
+
+  @keyframes mymove {
+    from {
+      transform: translateX(0%);
+    }
+
+    to {
+      transform: translateX(70px);
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+
+    .hedercontetwo {
+      float: left;
+    }
+
+    .mail {
+      width: 30%;
+    }
+
+    .card {
+      width: 90%;
+    }
+
+    .thirimgonediv {
+      width: 90%;
+    }
+
+    .thirtextonediv {
+      padding: 15px 20px;
+      width: 100%;
+    }
+
+    .textshhape::after {
+      visibility: hidden;
+    }
+
+    .seven {
+      width: 90%;
+    }
+
+    .fourdivone {
+      width: 90%;
+    }
+
+    .moreser {
+      width: 40%;
+    }
+
+    .shapeblue {
+      width: 100%;
+    }
+
+    .shapepart {
+      height: auto;
+    }
+
+    .textshhape {
+      height: auto;
+      padding: 30px;
+      font-size: 20px;
+    }
+
+    .shaperec {
+      display: none;
+    }
+
+    .shapetwopart {
+      width: 100%;
+      float: left;
+    }
+
+
+    .imojionet {
+      float: none;
+    }
+
+    .sevenmaintwo {
+      width: 90%;
+      margin: 80px 20px 0 20px;
+    }
+
+    .chatimaheone {
+      width: 90%;
+      margin: 0 20px;
+    }
+
+    .eightpartone {
+      width: 90%;
+      margin: 40px 0 20px 20px;
+    }
+
+    .eightparttwo {
+      padding-top: 0;
+      width: 90%;
+      margin: 0 20px;
+    }
+
+    .mentossince {
+      width: 80%;
+      margin: 30px 50px;
+    }
+
+    .nineconte {
+      margin: 140px 80px 50px 0;
+    }
+
+    .eleonemain {
+      padding: 20px 20px;
+      width: 100%;
+    }
+
+    .servicelink {
+      padding: 20px 20px;
+      width: 100%;
+    }
+
+    .taglist {
+      padding: 0 20px;
+      width: 100%;
+      float: left;
+    }
+
+    .subscribe {
+      padding: 10px 20px;
+      width: 100%;
+    }
+
+    .one {
+      margin: 15px 10px;
+    }
+
+    .two {
+      margin: 0 10px;
+    }
+
+    @keyframes mymove {
+      from {
+        transform: translateX(0%);
+      }
+
+      to {
+        transform: translateX(100px);
+      }
+    }
+  }
+}
